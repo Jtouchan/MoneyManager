@@ -42,7 +42,7 @@ class BackEnd :
         mainframe.pack(pady = 0, padx = 0)
 
 
-        root.geometry("280x200") #You want the size of the app to be 500x500
+        root.geometry("450x200") #You want the size of the app to be 500x500
         root.resizable(0, 0) #Don't allow resizing in the x or y direction
         Label(mainframe, text=" ").grid(row = 2, column = 1)
 
@@ -60,7 +60,7 @@ class BackEnd :
         Label(mainframe, text="").grid(row = 6, column = 1)
         Label(mainframe, text="").grid(row = 7, column = 1)
 
-        t="The new entry is " + NewEntry +". Chose the catagory of the entry \n"
+        t="The new entry is (" + NewEntry +"). Chose a catagory of the entry. \n"
         t2="If the entry is not an expense, just close the window"
         Label(mainframe, text=t+t2).grid(row = 8, column = 1)
 
