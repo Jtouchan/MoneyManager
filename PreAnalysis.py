@@ -11,9 +11,9 @@ class PreAnalysis :
 
         month_num = strptime(month,'%b').tm_mon
         if (month_num > 5):
-            Rent = 1600
+            Rent = ##
         else:
-            Rent = 1550
+            Rent = ##
 
         # sum all expenses from all catagories:
         Expenses = sum(ID_values_summed.values())
