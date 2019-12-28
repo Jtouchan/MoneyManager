@@ -1,20 +1,21 @@
-##MoneyManager
+**MoneyManager**
 
-This application is designed to perform the following tasks:
+The MoneyManager application is designed to perform the following tasks:
 
-1. Preprocess and compile credit card monthly statements in preparation for analyses
+1. Preprocess and compile credit card statements for a certain month from two banks into the main excel file (##file name##) in preparation for analysis.
 
-2. Parse compiled monthly statements and break down spending into on several catagories ( ##, ##, )
+2. Parse the compiled monthly statements, and break down spendings into several catagories specified by the user.
 
-3. If an entry is not previously identified by the user as one of the previous # catagories, the application asks the user to
-identify the entry. The user can close the window if he/she does not wish for this entry to be considered. Once the user makes a selection
-the application saves this selection, and automatically classify this entry in the appropriate catagory next it is encountered. 
+3. If the catagory of a certain expense is not previously identified by the user, the application asks the user to choose a catagory for the expense. If the user wishes not to include a specific expense in the analysis, he/she can simply skip this step. Once the user makes a selection, the application saves this selection and automatically identifies the catagory of the expense next time it is encountered.
+
 ##picture
 
-4. The application generate graphs depicting how much of monthly income was spent on the # catagories. In addition, the application 
-shows how monthly spending of a certain month with previous months.
+4. Once the application is done parsing the monthly statements, it generates graphs depicting how much of monthly income was spent on each of the catagories specified by the user. In addition, it compares the spending of a certain month with spendings of previous months. (Figures below were produced using dummy data)
 ##pictures
-
-5. Finally, the application displays the total amount of money spent and the amount of money saved in a given month. 
+ 
+5. Finally, the application displays the "big picture" of total amount of money spent, and the total amount of money saved in a given month. 
 ##picture
 
+
+(TODO: maybe upload the main excel file)
+(make sure there are no typos in here)
