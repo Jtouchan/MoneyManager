@@ -1,6 +1,10 @@
 **MoneyManager**
+===================
 
 The MoneyManager application is designed to perform the following tasks:
+
+# Functionality #:
+
 
 1. Preprocess and compile credit card statements for a certain month from two banks into the main excel file (##file name##) in preparation for analysis.
 
@@ -13,9 +17,11 @@ The MoneyManager application is designed to perform the following tasks:
 4. Once the application is done parsing the monthly statements, it generates graphs depicting how much of monthly income was spent on each of the catagories specified by the user. In addition, it compares the spending of a certain month with spendings of previous months. (Figures below were produced using dummy data)
 ##pictures
  
-5. Finally, the application displays the "big picture" of total amount of money spent, and the total amount of money saved in a given month. 
+5. Finally, the application displays the "big picture" which summerises the financial activity in a certain month. 
 ##picture
 
 
-(TODO: maybe upload the main excel file)
+# Side Notes: #
+
+(TODO: maybe upload the main excel file after removing some stuff from it)
 (make sure there are no typos in here)
