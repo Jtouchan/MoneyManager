@@ -29,4 +29,3 @@ The MoneyManager application is designed to perform the following tasks:
 * This application will be further modified to add the ability to read credit card statements in pdf format in addition to excel format. 
 
 (TODO: upload the main excel file after removing some stuff from it)
-(make sure there are no typos in here)
