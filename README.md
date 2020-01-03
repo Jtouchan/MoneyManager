@@ -12,7 +12,7 @@ The MoneyManager application is designed to perform the following tasks:
 
 3. If the category of a certain expense is unknown, the application asks the user to choose a category. Once the user makes a selection, the application saves this selection and automatically identifies the category of the expense next time it is encountered. If the user wishes not to include a specific expense in the analysis, he/she can simply skip this step. 
 
-##picture
+![1](https://user-images.githubusercontent.com/34410616/71701814-e4cb5b00-2d99-11ea-94cc-916ee519077a.PNG) ![2](https://user-images.githubusercontent.com/34410616/71701759-830af100-2d99-11ea-9b93-7596045edddf.PNG)
 
 4. Once the application is done parsing the monthly statements, it generates visual representations of the spending in a specified month. In addition, it compares the spending in a certain month with that in previous months. (Figures below were produced using dummy data)
 ##pictures
@@ -27,4 +27,3 @@ The MoneyManager application is designed to perform the following tasks:
 * This application was inspired by a book titled "Your money or your life" by Vicki Robin who emphasized the importance of tracking _every penny_ spent in order to have a financially healthy life. 
  
 * This application will be further modified to add the ability to read credit card statements in pdf format in addition to excel format. 
-
