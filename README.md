@@ -16,7 +16,8 @@ The MoneyManager application is designed to perform the following tasks:
 ![2](https://user-images.githubusercontent.com/34410616/71704209-e7807d00-2da6-11ea-9610-c73fadf54603.PNG)
 
 
-4. Once the application is done parsing the monthly statements, it generates visual representations of the spending in a specified month. In addition, it compares the spending in a certain month with that in previous months. (Figures below were produced using dummy data)
+4. Once the application is done parsing the monthly statements, it generates visual representations of the spending in a specified month. In addition, it compares the spending in a certain month with that in previous months.(Figures below were produced using dummy data)
+
 ![31](https://user-images.githubusercontent.com/34410616/71704393-29f68980-2da8-11ea-96a2-93939b4aa864.PNG)
 ![32](https://user-images.githubusercontent.com/34410616/71704394-2a8f2000-2da8-11ea-81ff-fc741586a85b.PNG)
 ![33](https://user-images.githubusercontent.com/34410616/71704395-2a8f2000-2da8-11ea-868a-521619b94d89.PNG)
