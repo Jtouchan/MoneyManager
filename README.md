@@ -25,6 +25,7 @@ The MoneyManager application is designed to perform the following tasks:
 
 5. Finally, the application displays the "big picture" that summarizes the financial activity for the specified month. 
 (Numbers below were produced using dummy data)
+
 ![4](https://user-images.githubusercontent.com/34410616/71704401-32e75b00-2da8-11ea-9787-dc07f811eebe.PNG)
 
 
