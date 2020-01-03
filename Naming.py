@@ -22,6 +22,7 @@ class PreProcess:
         for i in range(Number_banks):
 
             if (i==0):
+
                 Bank = "UNFCU"
                 FileName = "download.xlsx"
                 SheetName="Download"
@@ -29,28 +30,19 @@ class PreProcess:
 
             if (i==1):
                 Bank = "AMEX"
-                FileName = "Summary.xls"
-                SheetName="Transaction Details"
+                FileName = "activity.xlsx"
+                SheetName="Transactions"
                 Date_Label = "Date"
+
 
             Folderpth = Mainpth + "Pre-Proccessed\\"+ Bank +"\\"
             Filepth = Folderpth + FileName
+
 
             if ( os.path.isfile(Filepth)==0):  # if file does not exist skip it.
                 fileExist=False
                 continue
 
-            ## Transfrom from xls to xlsx
-            if (Bank == "AMEX"):
-                p.save_book_as( file_name= Folderpth + 'Summary.xls',  dest_file_name= Folderpth+"Summary.xlsx")
-                os.remove(Folderpth + 'Summary.xls')
-                FileName = "Summary.xlsx"
-                Filepth = Folderpth + FileName
-                Bank_statement = xl.load_workbook(Filepth)
-                ## remove extra sheet
-                removed_sheet=Bank_statement.get_sheet_by_name('Transaction Summary')
-                Bank_statement.remove_sheet(removed_sheet)
-                Bank_statement.save (Filepth)
             Bank_statement = xl.load_workbook(Filepth)
             Read_sheet=Bank_statement.get_sheet_by_name(SheetName)
 
@@ -84,5 +76,6 @@ class PreProcess:
 
         if ( fileExist==False) :
             month = Write_workbook.sheetnames[-1] # if file does not exist, look at the last sheet.
+
 
         return (month)
